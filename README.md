@@ -61,3 +61,8 @@ This project highlights the potential of GANs to mitigate biases in facial recog
 ## References
 - Buolamwini, J., & Gebru, T. (2018). *Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.*
 - Karkkainen, K., & Joo, J. (2021). *Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation.*
+- FairFace Dataset - *https://www.kaggle.com/datasets/aibloy/fairface/data* 
+- Huang, H., Yu, P. S., & Wang, C. (2018). *An introduction to image synthesis with generative adversarial nets.* arXiv preprint arXiv:1803.04469.
+- Github project that I took inspiration from - *https://github.com/varundixit4/Generating-Fake-Faces-Using-GAN*
+- Explaination of upsampling and transpose convolution - *https://machinelearningmastery.com/upsampling-and-transpose-convolution-layers-for-generative-adversarial-networks/* 
+- Xu, D., Yuan, S., Zhang, L., & Wu, X. (2018, December). *Fairgan: Fairness-aware generative adversarial networks. In 2018 IEEE international conference on big data (big data) (pp. 570-575).* IEEE.
