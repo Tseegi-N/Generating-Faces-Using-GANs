@@ -1,7 +1,7 @@
 # Uncovering Biases in Facial Recognition Systems
 
 ## Overview
-### This is a final project for MTH 354 : Mathematics Behind Deep Learning
+*This is a final project for MTH 354 : Mathematics Behind Deep Learning*
 This project focuses on **uncovering biases in facial recognition systems** by utilizing **Generative Adversarial Networks (GANs)** to generate unbiased synthetic images, ultimately aimed at debiasing facial classification training.
 
 Since the inception of biometric and facial recognition technologies, biases in gender and race have been well-documented. For example, a 2018 study titled *"Gender Shades"* by Joy Buolamwini and Timnit Gebru revealed:
@@ -25,9 +25,7 @@ GANs consist of two neural networks:
 
 The two networks are trained in a competitive manner, with the goal of the Generator producing data indistinguishable from real data. This process is defined by a minimax game function:
 
-\[
-\min_G \max_D \mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
-\]
+\[\min_G \max_D \mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]\]
 
 #### Implementation
 We employed **DCGAN (Deep Convolutional GAN)** for this project, which uses fully convolutional layers for better performance.
