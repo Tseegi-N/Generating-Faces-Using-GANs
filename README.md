@@ -25,7 +25,9 @@ GANs consist of two neural networks:
 
 The two networks are trained in a competitive manner, with the goal of the Generator producing data indistinguishable from real data. This process is defined by a minimax game function:
 
-$\min_G \max_D \mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]$
+```math
+\min_G \max_D \mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
+```
 
 #### Implementation
 We employed **DCGAN (Deep Convolutional GAN)** for this project, which uses fully convolutional layers for better performance.
